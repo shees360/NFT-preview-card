@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Preview Card</title>
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: 'Outfit';
+            src: url(assets/fonts/Outfit-VariableFont_wght.ttf);
+        }
+        body{
+            box-sizing: border-box;
+            background-color: hsl(217, 54%, 11%);
+            font-family: 'Outfit', sans-serif;
+            height: 100vh;
+            display: flex;
+            margin: 0;
+        }
+        .container{
+            background-color: hsl(216, 50%, 16%);
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            width: min(15rem, 80%);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0  10px 10px rgb(0, 0, 0, 0.1);
+        }
+        .con-img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .equil{
+            width: 100%;
+            height: 100%;
+        }
+        .con-img img:hover{
+            opacity: 0;
+            
+        }
+        .con-img:hover{
+            background-color: rgb(0, 255, 247, 0.3);
+            background-image: url(assets/images/icon-view.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        h3{
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 0;
+            cursor: pointer;
+        }
+        h3:hover{
+            color: hsl(178, 100%, 50%);
+        }
+        .content{
+            color: hsl(215, 51%, 70%);
+            font-size: 15px;
+            font-weight: 300;
+        }
+        .con-body{
+            display: flex;
+        }
+        #eth{
+            width: 5%;
+            height: 5%;
+        }
+        hr{
+            width: 100%;
+            border: 0.001px solid hsl(215, 32%, 27%);
+            margin-bottom: 20;
+        }
+        .con-body p{
+            margin-top: 0;
+        }
+        #day{
+            margin-left: 60px;
+            width: 8%;
+            height: 5%;
+        }
+        #days{
+            font-size: 13px;
+            color: hsl(215, 51%, 70%);
+            margin-left: 10px;
+        }
+        #ethna{
+            font-size: 13px;
+            color: hsl(178, 100%, 50%);
+            margin-left: 10px;
+
+        }
+        .con-footer{
+            display: flex;
+        }
+        #avatar{
+            width: 10%;
+            height: 5%;
+        }
+        .name{
+            color: white;
+            margin-top: 5;
+            margin-left: 10;
+            color: hsl(215, 51%, 70%);
+            font-weight: 300;
+            font-size: 12px;
+        }
+        span{
+            color: white;
+            font-weight: 400;
+            cursor: pointer;
+        }
+        span:hover{
+            color: hsl(178, 100%, 50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="cont"></div>
+    <div class="container">
+        <div class="con-img">
+            <img src="assets/images/image-equilibrium.jpg" alt="" class="equil">
+        </div>
+        <div class="con">
+            <h3>Equilibrium #3429</h3>
+            <p class="content"> Our Equilibrium collection promotes balance and calm.</p>
+            <div class="con-body">
+                    <img src="assets/images/icon-ethereum.svg" alt="" id="eth">
+                    <p id="ethna">0.041 ETH</p>
+                    <img src="assets/images/icon-clock.svg" alt="" id="day">
+                    <p id="days">3 days left</p>
+            </div>
+            <hr>
+            <div class="con-footer">
+                <img src="assets/images/image-avatar.png" alt="" id="avatar">
+                <p class="name">Creation of <span>Jules Wyvern</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
