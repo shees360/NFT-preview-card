@@ -27,7 +27,7 @@ Mobile Design
 # Links
 
 - Repository Url - [Repo Url](https://github.com/shees360/NFT-preview-card.git)
-- Live Url - 
+- Live Url - [Live Site](https://shees360.github.io/NFT-preview-card/)
 
 # Built with
 
@@ -39,3 +39,4 @@ Mobile Design
 - Name: shees
 
 - Frontend-Mentor: [@shees360](https://www.frontendmentor.io/profile/shees360)
+
